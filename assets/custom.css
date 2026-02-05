@@ -1,0 +1,107 @@
+/* CELKOVÝ VZHĽAD */
+body {
+    background-color: #0b0f10 !important;
+    color: #e6eef0 !important;
+    font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+}
+
+.mantine-Paper-root {
+    background: #0f1416 !important;
+    border: 1px solid rgba(255,255,255,0.03) !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+    border-radius: 12px;
+}
+
+/* ODSTRÁNENIE PLOTLY LIŠTY */
+.js-plotly-plot .modebar { display: none !important; }
+
+/* DROPDOWN FILTRE - "Eye-friendly" verzia */
+.Select-control {
+    background-color: #0B1220 !important; /* CARD_INNER */
+    border: 1px solid #1f2933 !important; /* BORDER */
+    color: #E5E7EB !important;
+    border-radius: 8px !important;
+}
+
+/* Vybrané položky (pills) vo vnútri filtrov */
+.Select--multi .Select-value {
+    background-color: rgba(0, 229, 192, 0.1) !important;
+    border: 1px solid rgba(0, 229, 192, 0.3) !important;
+    color: #00E5C0 !important;
+    border-radius: 4px !important;
+}
+
+.Select-value-label {
+    color: #00E5C0 !important;
+    font-size: 11px;
+}
+
+/* Menu s možnosťami pri rozbalení */
+.Select-menu-outer {
+    background-color: #0B1220 !important;
+    border: 1px solid #1f2933 !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.Select-option {
+    background-color: #0B1220 !important;
+    color: #9CA3AF !important;
+}
+
+.Select-option.is-focused {
+    background-color: rgba(0, 229, 192, 0.1) !important;
+    color: #00E5C0 !important;
+}
+
+/* ZAOBLENIE GRAFOV (Záloha pre CSS) */
+.gap-chart-rounded .barlayer path, 
+.domains-chart-rounded .barlayer path {
+    rx: 8px !important;
+    ry: 8px !important;
+}
+
+/* ÚPRAVA SIDEBARU */
+.sidebar-card {
+    background: transparent;
+}
+
+a {
+    color: #00CC99 !important;
+}
+
+/* Špeciálne pre Glossary rozbaľovanie */
+summary:focus {
+    outline: none;
+}
+
+/* Kompaktný kontajner pre vybrané filtre (pills) */
+.Select--multi .Select-multi-value-wrapper {
+    max-height: 150px; /* Tu nastavíš, koľko miesta môžu filtre zabrať */
+    overflow-y: auto;  /* Ak ich je veľa, objaví sa scrollbar */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 2px;
+}
+
+/* Skrytie horizontálneho scrollbaru, ak by sa objavil */
+.Select--multi .Select-multi-value-wrapper::-webkit-scrollbar {
+    width: 4px;
+}
+
+.Select--multi .Select-multi-value-wrapper::-webkit-scrollbar-thumb {
+    background: #1f2933;
+    border-radius: 10px;
+}
+
+/* Úprava samotných "pills" aby boli ešte o niečo menšie a neplytvali miestom */
+.Select--multi .Select-value {
+    margin: 1px !important;
+    line-height: 1.2 !important;
+}
+
+/* Zmenšenie fontu v dropdown menu, aby sa tam toho zmestilo viac */
+.Select-menu-outer .Select-option {
+    font-size: 12px;
+    padding: 8px 10px;
+}

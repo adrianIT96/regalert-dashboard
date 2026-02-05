@@ -1,0 +1,15 @@
+# Web Dashboard & Visualization
+dash>=2.9
+dash-bootstrap-components>=1.3.1
+dash-mantine-components>=1.1.0
+pandas
+plotly
+
+# Database & API
+sqlalchemy
+requests
+feedparser
+biopython
+
+# Utils
+python-dateutil
