@@ -31,17 +31,7 @@ RegAlert is an enterprise-grade data pipeline and interactive analytics dashboar
 * **Records Explorer:** Interactive data table with advanced filtering, sorting, and drill-down capabilities.
 
 ---
-
-## 📁 Project Structure
-
-```text
-├── /ingestors   # OOP scripts for data sourcing (FDA, PubMed, etc.)
-├── runner.py    # Main orchestrator for data synchronization
-├── app.py       # Interactive Dash/Streamlit application
-├── data/        # SQLite database & data storage
-└── assets/      # Custom CSS & static images```
-
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 Clone the repository:
 git clone [https://github.com/adrianIT96/regalert-dashboard.git](https://github.com/adrianIT96/regalert-dashboard.git)
@@ -56,3 +46,13 @@ pip install -r requirements.txt
 
 Run the Application:
 python app.py
+
+## 📁 Project Structure
+
+```text
+├── /ingestors   # OOP scripts for data sourcing (FDA, PubMed, etc.)
+├── runner.py    # Main orchestrator for data synchronization
+├── app.py       # Interactive Dash/Streamlit application
+├── data/        # SQLite database & data storage
+└── assets/      # Custom CSS & static images```
+
