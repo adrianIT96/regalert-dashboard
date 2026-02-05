@@ -33,18 +33,24 @@ RegAlert is an enterprise-grade data pipeline and interactive analytics dashboar
 ---
 ## ⚙️ Installation & Setup
 
-Clone the repository:
+### 1. Clone the repository:
+
 git clone [https://github.com/adrianIT96/regalert-dashboard.git](https://github.com/adrianIT96/regalert-dashboard.git)
+
 cd regalert-dashboard
 
-Setup Virtual Environment:
+### 2. Setup Virtual Environment:
+
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Install Dependencies:
+### 3. Install Dependencies:
+
 pip install -r requirements.txt
 
-Run the Application:
+### 4. Run the Application:
+
 python app.py
 
 ## 📁 Project Structure
