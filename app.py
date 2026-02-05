@@ -97,6 +97,7 @@ def pill(text, color, border_only=False):
 # 3. LAYOUT
 # ======================
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     # Top Header
