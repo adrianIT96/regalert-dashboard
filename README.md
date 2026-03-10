@@ -20,6 +20,7 @@ RegAlert is an enterprise-grade data pipeline and interactive analytics dashboar
 * **Modular Ingestors:** Each data source has a dedicated class-based ingestor to handle specific API/RSS structures.
 * **Smart Deduplication:** Custom logic to prevent record duplication during frequent updates.
 * **Advanced Categorization:** Regex-based engine that maps raw text to regulatory domains (e.g., 510k, PMA, AI Act).
+* **Database Layer:** Utilizes Python DB-API with SQLite for robust data persistence and SQL-based filtering.
 
 ### 2. Advanced Analytics Dashboard
 * **Evidence Gap Analysis:** A dual-axis time-series chart comparing the volume of scientific publications vs. regulatory approvals.
