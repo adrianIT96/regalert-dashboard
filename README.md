@@ -1,13 +1,12 @@
 # RegAlert — MedTech Regulatory & Research Monitor
 
-![Main Dashboard Performance](assets/dashboard_main.png)
+![Main Dashboard Performance](assets/dashboard_main.png.PNG)
 
 RegAlert is an enterprise-grade data pipeline and interactive analytics dashboard designed to monitor global medical device regulations (MDR/IVDR) and academic research trends (PubMed) in real-time. It specifically focuses on high-growth sectors: **AI/ML as a Medical Device (SaMD), Cybersecurity, and Digital Health**.
 
 ---
 
 ##  Tech Stack & Architecture
-## Tech Stack & Architecture
 
 * **Backend:** Python 3.x
 * **Data Orchestration:** Modular OOP-based ingestors for automated ETL from FDA, EMA, MHRA, and PubMed.
@@ -17,11 +16,7 @@ RegAlert is an enterprise-grade data pipeline and interactive analytics dashboar
 
 ---
 
-<<<<<<< HEAD
 ##  Key Technical Features
-=======
-## Key Technical Features
->>>>>>> 29ed7b0404223d228e5e90c9bafb1df9d52515a7
 
 ### 1. Automated ETL Pipeline
 * **Modular Ingestors:** Each data source has a dedicated class-based ingestor to handle specific API/RSS structures.
@@ -31,25 +26,22 @@ RegAlert is an enterprise-grade data pipeline and interactive analytics dashboar
 
 ### 2. Advanced Analytics Dashboard
 * **Evidence Gap Analysis:** A dual-axis time-series chart comparing the volume of scientific publications vs. regulatory approvals.
-![Evidence Gap Analysis](assets/evidence_gap_analysis.png)
+![Evidence Gap Analysis](assets/evidence_gap_analysis.png.PNG)
 
 * **Recall Radar:** A polar (spider) chart analyzing safety incidents across categories like Software, Sterility, and Battery issues.
-![Recall Radar](assets/recall_radar_charts.png)
+![Recall Radar](assets/recall_radar_charts.png.PNG)
 
 * **Trend Exploration:** Real-time calculation of data influx and domain concentration.
-![Domain Trends](assets/domain_trends.png)
+![Domain Trends](assets/domain_trends.png.PNG)
 
 ### 3. Professional UX/UI
 * **Responsive Grid:** Custom CSS Flexbox implementation to ensure seamless usability on both mobile and desktop.
 * **Records Explorer:** Interactive data table with advanced filtering, sorting, and drill-down capabilities.
-![Records Explorer](assets/records_explorer.png)
+![Records Explorer](assets/records_explorer.png.PNG)
 
 ---
-<<<<<<< HEAD
+
 ##  Installation & Setup
-=======
-## Installation & Setup
->>>>>>> 29ed7b0404223d228e5e90c9bafb1df9d52515a7
 
 ### 1. Clone the repository:
 
@@ -71,11 +63,7 @@ pip install -r requirements.txt
 
 python app.py
 
-<<<<<<< HEAD
 ##  Project Structure
-=======
-## Project Structure
->>>>>>> 29ed7b0404223d228e5e90c9bafb1df9d52515a7
 
 ```text
 ├── /ingestors   # OOP scripts for data sourcing (FDA, PubMed, etc.)
