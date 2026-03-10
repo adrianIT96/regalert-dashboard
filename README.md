@@ -7,6 +7,7 @@ RegAlert is an enterprise-grade data pipeline and interactive analytics dashboar
 ---
 
 ##  Tech Stack & Architecture
+## Tech Stack & Architecture
 
 * **Backend:** Python 3.x
 * **Data Orchestration:** Modular OOP-based ingestors for automated ETL from FDA, EMA, MHRA, and PubMed.
@@ -16,12 +17,17 @@ RegAlert is an enterprise-grade data pipeline and interactive analytics dashboar
 
 ---
 
+<<<<<<< HEAD
 ##  Key Technical Features
+=======
+## Key Technical Features
+>>>>>>> 29ed7b0404223d228e5e90c9bafb1df9d52515a7
 
 ### 1. Automated ETL Pipeline
 * **Modular Ingestors:** Each data source has a dedicated class-based ingestor to handle specific API/RSS structures.
 * **Smart Deduplication:** Custom logic to prevent record duplication during frequent updates.
 * **Advanced Categorization:** Regex-based engine that maps raw text to regulatory domains (e.g., 510k, PMA, AI Act).
+* **Database Layer:** Utilizes Python DB-API with SQLite for robust data persistence and SQL-based filtering.
 
 ### 2. Advanced Analytics Dashboard
 * **Evidence Gap Analysis:** A dual-axis time-series chart comparing the volume of scientific publications vs. regulatory approvals.
@@ -39,7 +45,11 @@ RegAlert is an enterprise-grade data pipeline and interactive analytics dashboar
 ![Records Explorer](assets/records_explorer.png)
 
 ---
+<<<<<<< HEAD
 ##  Installation & Setup
+=======
+## Installation & Setup
+>>>>>>> 29ed7b0404223d228e5e90c9bafb1df9d52515a7
 
 ### 1. Clone the repository:
 
@@ -61,7 +71,11 @@ pip install -r requirements.txt
 
 python app.py
 
+<<<<<<< HEAD
 ##  Project Structure
+=======
+## Project Structure
+>>>>>>> 29ed7b0404223d228e5e90c9bafb1df9d52515a7
 
 ```text
 ├── /ingestors   # OOP scripts for data sourcing (FDA, PubMed, etc.)
